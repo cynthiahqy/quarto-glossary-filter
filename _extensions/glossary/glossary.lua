@@ -79,8 +79,17 @@ function insert_glossary(div)
           if (block.classes ~= nil and block.t == "Div" and block.classes:includes(v.class[1].text)) then
             table.insert(filtered_blocks, block)  -- Add the block to the filtered table
           end
+          
+          if (block.t == "Para") then
+            for _, span in ipairs(block.content) do
+              if (span.classes ~= nil and span.classes:includes(v.class[1].text)) then
+                table.insert(filtered_blocks, span)
+              end
+            end-- Add the block to the filtered table
+          end  
         end
       end
+
       quarto.log.output(">> Number of blocks inserted: ", #filtered_blocks)
       return filtered_blocks
     end
