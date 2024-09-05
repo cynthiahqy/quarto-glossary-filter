@@ -1,16 +1,75 @@
 ---
-title: "Glossary Example"
+title: "Brag File"
 format: html
 filters:
   - glossary
 glossary:
-  - id: "my-glossary"
-    class: "definition"
+  - id: "brags"
+    class: "brag"
     contents:
       - "ex*"
+  - id: "snaps"
+    class: "snap"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Quam pellentesque nec nam aliquam. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Est placerat in egestas erat imperdiet sed. Amet purus gravida quis blandit turpis cursus. Tortor posuere ac ut consequat semper. Nibh sed pulvinar proin gravida hendrerit. Mauris nunc congue nisi vitae. Nunc sed augue lacus viverra vitae congue eu.
 
-:::{#my-glossary}
+The brag-workshop
+- https://jvns.ca/blog/brag-documents/
+
+## Goals for this year
+
+## Goals for next year
+
+## Projects
+
+## Collaboration & Mentorship
+
+- meeting minutes
+- internal talk / workshop
+- onboarding / mentoring
+
+## Design & Documentation
+
+## Community & Service
+
+## What you learned
+
+
+
+## Outside of Work
+
+- blog posts
+- talks/panels
+- open source work
+- Industry recognition
+
+:::{.snap}
+Cool website -- Vlad, Victor, and Malte
+:::
+
+:::{.brag}
+Gave three new talks from Jul-Aug
+:::
+
+[Blog post on quarto images]{.brag}
+
+Show and tell:
+
+- [new podcast episode out -- not captured]{.brag}
+
+:::{.brag}
+- Another cool thing I've made
+- and this too!
+:::
+
+## All the brags
+
+:::{#brags}
+:::
+
+
+## Snaps! that stuck with me
+
+:::{#snaps}
 :::
